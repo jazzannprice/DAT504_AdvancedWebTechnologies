@@ -38,7 +38,9 @@ body
 header
 {
 
-	background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.4)), url("assests/band.jpg");
+	background-image: -webkit-linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.4)), url("../assests/band.jpg");
+	background-image: -o-linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.4)), url("../assests/band.jpg");
+	background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.4)), url("../assests/band.jpg");
 	height:100vh;
 	background-position: center;
 	background-size: cover;
