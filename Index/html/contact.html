@@ -11,7 +11,7 @@
     <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed:300,400|Lato:300,400" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-    <link rel="stylesheet" href="styles/main.css" type="text/css">
+    <link rel="stylesheet" href="../styles/main.css" type="text/css">
 
 
     <title>Bandit</title>
@@ -25,7 +25,7 @@
 
     <header>
       <nav class="navbar navbar-dark bg-dark">
-        <a class="navbar-brand nav-link scroll" href="#pagetop"><i class="fas fa-home"></i></a>
+        <a class="navbar-brand nav-link scroll" href="index.html"><i class="fas fa-home"></i></a>
         <form class="form-inline">
           <div class="input-group">
             <div class="input-group-prepend">
@@ -37,29 +37,50 @@
       </nav>
 
       <div class="logo">
-          <img src="assests/banditinvert.png" height="200" width=" 350"/>
+          <img src="../assests/banditinvert.png" height="200" width=" 350"/>
       </div>
 
         <div class="row">
           <ul class="main-nav col-mr-3">
 
-            <li><a href="">VENUES</a></li>
+
             <li><a href="yourlist.html">YOUR LIST</a></li>
-            <li><a href="contact.html">CONTACT</a></li>
+
             <li><a href=""><i class="fas fa-search"></i></a></li>
             <li><a href=""><i class="fas fa-user-alt"></i></i></a></li>
-        </div>
-          <div class"name">
-              <h1 class="name">Bandit</h1>
-        </div>
 
-        <div class="wrapper">
-          <div class="container">
-            <input type="text" class="input" placeholder="What are you looking for?">
-            <input type="button" value="search" class="close-btn">
-        </div>
-      </div>
+            <section>
+            <div class="wrapper" id="ContactUs">
+              <h5 class="text-center mt-2">Contact Us</h5>
+              <hr class="mb-5">
+              <form action="https://formspree.io/" method="POST">
+                <div class="row">
+                  <div class="col-md-4">
+                    <div class="form-group">
+                      <input class="form-control" id="name" type="text" placeholder="Name" required="required">
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="form-group">
+                      <input class="form-control" id="email" type="email" placeholder="Email Address" required="required">
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="form-group">
+                      <input class="form-control" id="phone" type="tel" placeholder="Phone Number" required="required">
+                    </div>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <textarea class="form-control" id="message" rows="1" placeholder="Message" required="required"></textarea>
+                </div>
+                <div class="form-group">
+                  <button class="btn hvr-bob btn-outline-dark text-light bg-dark black w-100" type="submit">Send</button>
+                </div>
+              </form>
+            </div>
 
+          </section>
 
 
 <section>
