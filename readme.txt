@@ -7,3 +7,5 @@ To start this application:
 2. Drag in folder
 3. Run npm install
 4. Run npm start
+
+Link to live demo, run off of google cloud platform: dat504webtech.appspot.com

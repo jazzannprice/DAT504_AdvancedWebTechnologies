@@ -1,9 +1,10 @@
+/*controls the padding and margin on the edge of the screen */
 *, html {
     margin:0;
     padding:0;
 }
-.options
-{
+/* controls flex box margin and padding*/
+.options{
 
 	margin: 10px auto;
 	padding: 20px;
@@ -15,7 +16,7 @@ header{
   display: flex;
   justify-content: center;
 }
-
+/* controls the logo size and position*/
 img{
   width:250px;
   height: auto;
@@ -27,7 +28,7 @@ img{
   align-items: center;
 
 }
-
+/* controls the background size and position as well as how it changes on different screen sizes*/
 body
 {
 	background-image: url("../assets/concert.jpg");
@@ -40,7 +41,7 @@ body
 }
 
 
-
+/* controls the navigation at the top of the screen*/
 .main-nav
 {
 	list-style: none;
@@ -52,14 +53,14 @@ body
 	color:rgba(255, 255, 255,0.8);
 
 }
-
+/* changes the margin between the words in the nav*/
 .main-nav li
 {
 	display: inline-flex;
 	margin-bottom: 10px;
 	margin-right: 10px
 }
-
+/* navigation bar settings, font and colour ect*/
 .main-nav li a
 {
  float: right;
@@ -70,14 +71,14 @@ body
 	font-weight: 150px;
 
 }
-
+/* size and colour of the footer*/
 footer{
   height: 10vh;
   width: 100vw;
   background-color: grey;
   opacity: 40%;
 }
-
+/* flex container controls for each section, nav, logo and search bar ect*/
 .flex-container-2, #root {
   display: flex;
   justify-content: center;
@@ -104,7 +105,7 @@ footer{
   flex-grow: 1;
 
 }
-
+/* Controls how the form looks and behaves*/
 
   .myForm {
     display: flex;
@@ -115,6 +116,7 @@ footer{
     max-height: 50vh;
     margin-top: 30px;
   }
+  /* changes the message box within the contact form*/
   .message {
     display: flex;
     font-size: 3vh;
@@ -140,15 +142,18 @@ footer{
     max-width: 70vh;
 
   }
+  /* changes the width of the contact form*/
   .contact input {
     width: 100%;
   }
+  /* centers the contact form*/
   .contact input,
   .contact button {
     padding: 1em;
     justify-content: center;
     align-items: center;
   }
+  /* button controls*/
   .contact button {
    background: white;
    border: 0;
@@ -159,10 +164,12 @@ footer{
 	align-items: center;
 	margin-top: ;
 }
+/* form size*/
 .search-form {
 max-width: 100%;
 
 }
+/* more settings for the contact form*/
 input[type="search"] {
 	box-sizing: border-box;
 	background: #E9E9E9;
@@ -197,6 +204,7 @@ button[type="submit"]:hover {
 	display: flex;
 	flex-wrap: wrap;
 }
+/* changes the behavour on screen size change*/
 input[type="search"] {
 	flex: 2 0 200px;
 }
